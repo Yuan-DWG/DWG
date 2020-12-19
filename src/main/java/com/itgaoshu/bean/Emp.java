@@ -10,7 +10,15 @@ public class Emp implements Serializable {
     private String ename;
     private Double salary;
     private String hiredate;
+    private Integer eage;
 
+    public Integer getEage() {
+        return eage;
+    }
+
+    public void setEage(Integer eage) {
+        this.eage = eage;
+    }
 
     public String getEname() {
         return ename;
